@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 2em;
+    font-family: Arial;
+	background-color: #F8F0FF;
+background-image: linear-gradient(to bottom, #e1beff, #e4c5ff, #e7cbff, #e9d2fe, #ecd8fe, #ead1ff, #e9cbff, #e8c4ff, #e3aeff, #df96ff, #dc7cfe, #d95ffb);	
+}
+
+header {
+    background-color: #E1BEFF;
+    text-align: center;
+    padding: 0;
+	margin: -2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 2em;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #C27EFD;
+}
+.album {
+	border: 1px solid #666;
+    margin: 2em;
+    padding: 1em;
+    height: 10.5em;
+    width: 20%;
+    float: left;
+	text-align: center;
+
+}
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.merch {
+	border: 1px solid #666;
+    margin: 1em;
+    padding: 1em;
+    height: 10.5em;
+    width: 20%;
+    float: left;
+	text-align: center;
+}
+.merch-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nosotros {
+	margin: 1em;
+    padding: -1em;
+    width: 20%;
+    float: left;
+	text-align: center;	
+}
+.nosotros-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+aside {
+	float: right;
+	width: 18%;
+	background-color: #E1BEFF;
+	text-align: center;
+	padding: 1em;
+	
+}
+.css-button-3d--red {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #ef233c;
+  box-shadow: 0 5px #d90429;
+}
+.css-button-3d--red:hover {
+  box-shadow: 0 3px #d90429;
+  top: 1px;
+}
+.css-button-3d--red:active {
+  box-shadow: 0 0 #d90429;
+  top: 5px;
+}
+
+
+form {
+
+    background-color: #8c52ff;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+	max-width: 400px;
+
+    width: 100%; 
+
+    margin: 20px auto; 
+
+}
+
+
+label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #555;
+
+}
+
+
+
+input, textarea {
+
+    width: 90%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+
+
+input[type="number"], input[type="text"], input[type="email"] {
+
+    background-color: #f9f9f9;
+
+}
+
+
+
+button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: #5cb85c;
+
+    border: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+
+
+button:hover {
+
+    background-color: #4cae4c;
+
+}
+
+
+
+.grupo {
+    
+    margin: 0.9em;
+	margin-top: 6px;
+    padding: -1em;
+    width: 20%;
+    float: left;
+	text-align: center;
+}
+h3{
+margin-bottom: 2px; 
+text-align: left;
+}
+footer {
+	clear: both;
+	text-align: left;
+	padding: bottom;
+	
+}
+	
+h1 {
+	text-align: center;
+}
+main {
+	text-align: center;
+}
